@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфоліо</title>
+
+    <style>
+        /* Типові селектори */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f5f5f5;
+        }
+
+        h1, h2 {
+            color: #222;
+        }
+
+        p {
+            font-size: 14px;
+            color: #333;
+        }
+
+        /* ID-селектор для навігації */
+        #nav {
+            background: #333;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        #nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 16px;
+        }
+
+        /* Класові селектори для секцій */
+        .about, .projects, .contact {
+            padding: 20px;
+            margin: 20px;
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            background: white;
+        }
+
+        .about {
+            background: #dff3ff;
+        }
+
+        .projects {
+            background: #e8ffd6;
+        }
+
+        .contact {
+            background: #ffe5d9;
+        }
+    </style>
+
+</head>
+<body>
+
+    <!-- Меню -->
+    <div id="nav">
+        <a href="#about">Про мене</a>
+        <a href="#projects">Проєкти</a>
+        <a href="#contact">Контакти</a>
+    </div>
+
+    <!-- Розділ "Про мене" -->
+    <section id="about" class="about">
+        <h2>Про мене</h2>
+        <p>Я починаючий веб-розробник, який створює сучасні та адаптивні веб-сайти.</p>
+    </section>
+
+    <!-- Розділ "Проєкти" -->
+    <section id="projects" class="projects">
+        <h2>Проєкти</h2>
+        <p>• Лендінг сторінка<br>
+           • Інтернет-магазин<br>
+           • Портфоліо сайт</p>
+    </section>
+
+    <!-- Розділ "Контакти" -->
+    <section id="contact" class="contact">
+        <h2>Контакти</h2>
+        <p>Email: example@gmail.com<br>
+           Телефон: +380 00 000 0000</p>
+    </section>
+
+</body>
+</html>
